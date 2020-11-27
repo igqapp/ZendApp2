@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZendApp</string>
+    <string name="chats">Chats</string>
+    <string name="users">Users</string>
+    <string name="solicitudes">Requests</string>
+    <string name="missolicutdes">My requests</string>
+    <string name="hoy">"Today "</string>
+    <string name="a">"at "</string>
+    <string name="ultvez">"last time  "</string>
+</resources>

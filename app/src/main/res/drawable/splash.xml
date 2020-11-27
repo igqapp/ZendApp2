@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/fui_transparent"/>
+    <item
+        android:width="500dp"
+        android:height="500dp">
+        <bitmap
+            android:src="@drawable/z5"
+            android:gravity="center"
+            />
+
+    </item>
+</layer-list>

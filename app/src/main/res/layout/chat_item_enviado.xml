@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="right">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:background="@color/enviado"
+            android:backgroundTint="@color/enviado"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/img_mensaje_enviado"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                </ImageView>
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_mensaje"
+                    android:background="@color/enviado"
+                    android:text="hola que tal?"
+                    android:padding="7dp"
+                    android:textColor="@color/blanco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_hora"
+            android:text="12:00"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:visibility="gone"
+            android:src="@drawable/ic_entregado"
+            android:id="@+id/img_entregado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+        <ImageView
+            android:visibility="gone"
+            android:src="@drawable/ic_visto"
+            android:id="@+id/img_visto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

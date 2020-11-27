@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "960238492655",
+    "firebase_url": "https://zendapp2.firebaseio.com",
+    "project_id": "zendapp2",
+    "storage_bucket": "zendapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960238492655:android:4338f4bbd5b0d436f4b41a",
+        "android_client_info": {
+          "package_name": "com.igqapp.zendapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960238492655-mpmh86295e4jh81po129ujhqnuffklrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.igqapp.zendapp2",
+            "certificate_hash": "0d484970fbd2b04439b4835b2f02e16ddfc25a71"
+          }
+        },
+        {
+          "client_id": "960238492655-b3uq8rg6ioltjmtj67q86qi6eis4ijgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD02-7Wcd7j8Q3bEKeynyv0k_PdoZkGIqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960238492655-b3uq8rg6ioltjmtj67q86qi6eis4ijgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
